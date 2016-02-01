@@ -20,11 +20,11 @@ var zoo = {
         console.log("Welcome to the Zoo and Friends App~!");
     },
     menu: function () {
-        console.log("Enter (A): ------> to Add a new animal to the Zoo!" + "/r/n");
-        console.log("Enter (U): ------> to Update info on an animal in the Zoo!" + "/r/n");
-        console.log("Enter (V): ------> to Visit the animals in the Zoo!" + "/r/n");
-        console.log("Enter (D): ------> to Adopt an animal from the Zoo!" + "/r/n");
-        console.log("Enter (Q): ------> to Quit and exit the Zoo!" + "/r/n");
+        console.log("Enter (A): ------> to Add a new animal to the Zoo!");
+        console.log("Enter (U): ------> to Update info on an animal in the Zoo!");
+        console.log("Enter (V): ------> to Visit the animals in the Zoo!");
+        console.log("Enter (D): ------> to Adopt an animal from the Zoo!");
+        console.log("Enter (Q): ------> to Quit and exit the Zoo!");
     },
     add: function (input_scope) {
         var currentScope = input_scope;
